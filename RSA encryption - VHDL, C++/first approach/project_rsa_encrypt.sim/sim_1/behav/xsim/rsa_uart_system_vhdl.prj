@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_rsa_encrypt.srcs/sources_1/new/binary_exp.vhd" \
+"../../../../project_rsa_encrypt.srcs/sources_1/new/montgomery_mult.vhd" \
+"../../../../project_rsa_encrypt.srcs/sources_1/new/uart_receiver.vhd" \
+"../../../../project_rsa_encrypt.srcs/sources_1/new/uart_transmitter.vhd" \
+"../../../../project_rsa_encrypt.srcs/sources_1/new/rsa_uart_system.vhd" \
+
+# Do not sort compile order
+nosort

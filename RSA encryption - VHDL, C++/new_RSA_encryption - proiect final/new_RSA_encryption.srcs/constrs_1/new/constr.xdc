@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports reset]
+set_property IOSTANDARD LVCMOS33 [get_ports start]
+set_property IOSTANDARD LVCMOS33 [get_ports done]
+set_property IOSTANDARD LVCMOS33 [get_ports base[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports exponent[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports modulus[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports result[*]]

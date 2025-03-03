@@ -1,0 +1,9 @@
+-- NO TABS - F:\Facultate\Anul 3\Semestrul 1\Lab PF\project1\Elm-Project\src\Model\PostsConfig.elm
+
+I ran into a tab, but tabs are not allowed in Elm files.
+
+148| 		    filteredByUrl |> List.sortWith (sortToCompareFn config.sortBy)
+     ^
+Replace the tab with spaces.
+
+`elm make` failed with exit code 1.

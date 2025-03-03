@@ -1,0 +1,1 @@
+Bill[id=2, orderId=24, amount=75.0, timestamp=2024-05-21T14:46:13.131892]

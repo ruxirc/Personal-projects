@@ -1,0 +1,52 @@
+.workout-planner {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.workout-planner h2 {
+  color: #1985a1;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.workout-planner p {
+  font-size: 1.2em;
+  color: #46494c;
+  margin-bottom: 20px;
+}
+
+.muscle-list {
+  list-style: none;
+  padding: 0;
+}
+
+.muscle-item {
+  font-size: 1.1em;
+  color: #333;
+  background-color: #dcdcdd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #1985a1;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #137a8e;
+}

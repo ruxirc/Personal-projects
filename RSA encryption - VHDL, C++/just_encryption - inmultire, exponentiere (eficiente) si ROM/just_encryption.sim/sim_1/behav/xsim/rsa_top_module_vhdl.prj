@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../just_encryption.srcs/sources_1/new/binary_exp.vhd" \
+"../../../../just_encryption.srcs/sources_1/new/montgomery_mul.vhd" \
+"../../../../just_encryption.srcs/sources_1/new/rom_encoding.vhd" \
+"../../../../just_encryption.srcs/sources_1/new/rsa_top_module.vhd" \
+
+# Do not sort compile order
+nosort

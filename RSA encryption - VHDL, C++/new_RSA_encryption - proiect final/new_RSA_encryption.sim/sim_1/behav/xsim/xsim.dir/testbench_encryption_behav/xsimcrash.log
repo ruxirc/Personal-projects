@@ -1,0 +1,17 @@
+Exception at PC 0x00007FFADAADCEF8
+Attemped to read address 0x0000000000000000
+Printing stacktrace...
+
+[0]  [0x00007FFADAADCEF8]
+[1]  [0x00007FFADAADCEF8]
+[2] (iki_vhdl_file_endfile+0xd2) [0x00007FFADAC097E2]
+[3]  [0x00000000004045D3]
+[4] (xsi_trace_all+0x10704) [0x00007FFADAC83894]
+[5] (xsi_trace_all+0xc247) [0x00007FFADAC7F3D7]
+[6] (xsi_trace_all+0xb26d) [0x00007FFADAC7E3FD]
+[7] (xsi_trace_all+0x9ddc) [0x00007FFADAC7CF6C]
+[8] (xsi_trace_all+0x9949) [0x00007FFADAC7CAD9]
+[9] (recalloc+0xa3) [0x00007FFB8FCE9333]
+[10] (BaseThreadInitThunk+0x1d) [0x00007FFB91BF259D]
+[11] (RtlUserThreadStart+0x28) [0x00007FFB92A4AF38]
+Done

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xilinx_vip" -L "secureip" -L "xpm" --snapshot "testbench_encryption_behav" "xil_defaultlib.testbench_encryption" -log "elaborate.log" 

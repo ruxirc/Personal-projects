@@ -1,0 +1,11 @@
+Bill:
+id=5
+orderId=27
+amount=45.0
+timestamp=2024-05-24T09:43:29.817935700
+
+Order:
+id=27
+idClient=5
+idProduct=1
+quantity=3

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sources_1/new/modular_pow.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'modular_pow'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sources_1/new/ecryption_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'encryption_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sim_1/new/encryption_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench_encryption'

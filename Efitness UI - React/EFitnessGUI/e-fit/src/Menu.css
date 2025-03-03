@@ -1,0 +1,50 @@
+/* App bar styling */
+.app-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Thicker app bar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Title on the left and buttons on the right */
+  background-color: #333; /* Darker background shade */
+  color: #dcdcdd; /* Light grey text */
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Title styling */
+.app-bar-title {
+  font-size: 28px; /* Increased text size for better visibility */
+  font-weight: bold;
+  margin-left: 0; /* Ensures the title is aligned to the left */
+  padding-right: 20px; /* Add a little padding to prevent it from touching the edge */
+  color: #dcdcdd; /* Light grey text for title */
+}
+
+/* Buttons container */
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end; /* Keep buttons on the right */
+  margin-right: 30px; /* Adjust the right margin if needed */
+}
+
+/* Link button styles */
+.menu-button {
+  padding: 10px 15px; /* Slightly larger padding */
+  font-size: 18px; /* Increased font size for better readability */
+  border: none;
+  background-color: transparent;
+  color: #dcdcdd; /* Light grey text on buttons */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.menu-button:hover {
+  background-color: #4c5c68; /* A dark blue-grey on hover */
+}

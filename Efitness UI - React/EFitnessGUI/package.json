@@ -1,0 +1,9 @@
+{
+  "name": "EFitnessGUI",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+}

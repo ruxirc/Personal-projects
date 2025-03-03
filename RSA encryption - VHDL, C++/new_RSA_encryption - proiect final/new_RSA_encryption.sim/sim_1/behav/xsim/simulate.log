@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Note: Criptarea a fost finalizata!
+Time: 0 ps  Iteration: 0  Process: /testbench_encryption/line__95  File: C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sim_1/new/encryption_tb.vhd
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 10 ns  Iteration: 0  Process: /testbench_encryption/line__95
+  File: C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sim_1/new/encryption_tb.vhd
+
+HDL Line: C:/Users/Maria/Desktop/new_RSA_encryption/new_RSA_encryption.srcs/sim_1/new/encryption_tb.vhd:105

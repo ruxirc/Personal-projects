@@ -1,0 +1,33 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Set default background for other pages */
+  min-height: 100vh;
+}
+
+/* Apply Gradient only when .main-page-background is active */
+.main-page-background {
+  background-image: linear-gradient(45deg, #c5c3c6, #1985a1 30%, #46494c 70%);
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+}
+
+/* Additional Styling for App */
+.App {
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* Specific page styles, no need for a background here */
+.App-header {
+  background-color: #46494c; /* Dark grey */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #c5c3c6; /* Light grey for text */
+}

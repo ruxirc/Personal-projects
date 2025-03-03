@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: radial-gradient(circle, #dcdcdd, #c5c3c6 40%, #46494c 80%);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #c5c3c6;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+.error {
+  color: #ff4d4d;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+/* Meals Section */
+.meals,
+.waters {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.meals h2,
+.waters h2 {
+  color: #1985a1;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.meal,
+.water {
+  background-color: #f4f4f4;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #dcdcdd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.meal:hover,
+.water:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.meal h3,
+.water h3 {
+  color: #46494c;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.meal p,
+.water p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Empty State */
+p {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .meals,
+  .waters {
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .meal h3,
+  .water h3 {
+    font-size: 1.2em;
+  }
+}

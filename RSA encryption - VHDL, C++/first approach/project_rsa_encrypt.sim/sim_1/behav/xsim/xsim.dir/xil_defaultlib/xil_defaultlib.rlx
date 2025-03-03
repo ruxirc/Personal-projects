@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,axi_vip_v1_1_17;processing_system7_vip_v1_0_19;xilinx_vip,,,,,,
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.srcs/sources_1/new/binary_exp.vhd,1731485829,vhdl,,,,binary_exp,,,,,,,,
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.srcs/sources_1/new/montgomery_mult.vhd,1731485828,vhdl,,,,montgomery_mult,,,,,,,,
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.srcs/sources_1/new/rsa_uart_system.vhd,1732704885,vhdl,,,,rsa_uart_system,,,,,,,,
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.srcs/sources_1/new/uart_receiver.vhd,1731484271,vhdl,,,,uart_receiver,,,,,,,,
+C:/Users/Maria/Desktop/project_rsa_encrypt/project_rsa_encrypt.srcs/sources_1/new/uart_transmitter.vhd,1731484537,vhdl,,,,uart_transmitter,,,,,,,,

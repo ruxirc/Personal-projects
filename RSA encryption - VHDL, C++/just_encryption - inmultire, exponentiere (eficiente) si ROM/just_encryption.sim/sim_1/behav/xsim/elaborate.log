@@ -1,0 +1,9 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Apps/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rsa_top_module_behav xil_defaultlib.rsa_top_module -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-8856] comparison between unequal length arrays always returns FALSE; left argument length 6 is different from right argument length 12 for 'std_logic_vector_93' array [C:/Users/Maria/Desktop/just_encryption/just_encryption.srcs/sources_1/new/binary_exp.vhd:121]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

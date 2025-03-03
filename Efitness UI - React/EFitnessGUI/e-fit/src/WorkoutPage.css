@@ -1,0 +1,89 @@
+/* Container general pentru pagina workout */
+.workout-page {
+  text-align: center;
+  background-image: radial-gradient(circle, #1985a1, #4c5c68 40%, #333 80%);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 30px;
+  margin-top: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Stilul pentru titlu h2 */
+.workout-page h2 {
+  font-size: 28px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 40px; /* Spațiu între titlu și lista de exerciții */
+  font-weight: bold;
+}
+
+/* Stilizare pentru lista orizontală de exerciții */
+.exercise-list-horizontal {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px; /* Spațiu între lista de exerciții și butonul pentru trainer */
+}
+
+/* Stilizarea fiecărui card de exercițiu */
+.exercise-card {
+  background-color: #46494c;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  color: #c5c3c6;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-card:hover {
+  transform: scale(1.05); /* Creștere ușoară la hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Creștere umbra la hover */
+}
+
+/* Stilizarea titlului exercițiului din card */
+.exercise-card h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #dcdcdd;
+  text-transform: capitalize;
+}
+
+/* Stilizarea textului tipului de exercițiu */
+.exercise-card p {
+  font-size: 16px;
+  color: #c5c3c6;
+}
+
+/* Containerul pentru butonul de trainer */
+.trainer-button-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Butonul de trainer */
+.trainer-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #1985a1; /* Teal */
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  width: auto;
+  max-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.trainer-button:hover {
+  background-color: #4c5c68; /* Culoare la hover */
+}

@@ -1,0 +1,74 @@
+/* Container general pentru pagina de detalii a exercițiului */
+.workout-detail-page {
+  text-align: center;
+  background-image: radial-gradient(circle, #1985a1, #4c5c68 40%, #333 80%);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px 20px;
+  margin-top: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Titlu principal (h1) pentru detaliile exercițiului */
+.workout-detail-page h1 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Titluri pentru detalii (Type, Primer) */
+.workout-detail-page p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #c5c3c6;
+}
+
+/* Titlu pentru pașii exercițiului */
+.workout-detail-page h3 {
+  font-size: 24px;
+  color: #dcdcdd;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Stilizare pentru pașii exercițiului (în format preformatat) */
+.workout-detail-page .steps {
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.1); /* fundal transparent */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #c5c3c6;
+}
+
+/* Containerul pentru butoane (Back și Next Random Exercise) */
+.workout-detail-page .navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Butoanele pentru navigare (Back și Next Random Exercise) */
+.workout-detail-page button {
+  padding: 15px 30px;
+  background-color: #1985a1; /* Teal */
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efect hover pe butoane */
+.workout-detail-page button:hover {
+  background-color: #4c5c68; /* Gri mai închis pentru hover */
+}

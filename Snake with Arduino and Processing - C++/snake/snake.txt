@@ -1,0 +1,46 @@
+const int UP_BUTTON = 2;
+const int DOWN_BUTTON = 3;
+const int LEFT_BUTTON = 4;
+const int RIGHT_BUTTON = 5;
+
+const int debounceDelay = 20;
+
+void setup() {
+  pinMode(UP_BUTTON, INPUT);    
+  pinMode(DOWN_BUTTON, INPUT);
+  pinMode(LEFT_BUTTON, INPUT);
+  pinMode(RIGHT_BUTTON, INPUT);
+  
+  Serial.begin(9600);  
+}
+
+boolean debounce(int pin) {
+  boolean state;
+  boolean previousState;
+  previousState = digitalRead(pin); // Citire stare inițială
+
+  for (int counter = 0; counter < debounceDelay; counter++) {
+    delay(1); // Așteaptă 1 ms
+    state = digitalRead(pin); // Citește stare curentă
+    if (state != previousState) { // Dacă starea se schimbă, resetează contorul
+      counter = 0;
+      previousState = state;
+    }
+  }
+  return state; // Returnează starea stabilizată
+}
+
+void loop() {
+  if (debounce(UP_BUTTON)) {
+    Serial.println("UP");
+  }
+  if (debounce(DOWN_BUTTON)) {
+    Serial.println("DOWN");
+  }
+  if (debounce(LEFT_BUTTON)) {
+    Serial.println("LEFT");
+  }
+  if (debounce(RIGHT_BUTTON)) {
+    Serial.println("RIGHT");
+  }
+}
