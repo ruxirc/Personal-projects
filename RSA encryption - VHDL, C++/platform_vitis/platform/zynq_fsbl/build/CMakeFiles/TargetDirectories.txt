@@ -1,3 +1,0 @@
-C:/Users/Maria/Desktop/platform_vitis/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-C:/Users/Maria/Desktop/platform_vitis/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-C:/Users/Maria/Desktop/platform_vitis/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
