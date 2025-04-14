@@ -1,0 +1,7 @@
+# ninja log v5
+27	140	7580340508957481	CMakeFiles/uart_rsa.elf.dir/platform.c.obj	d6c28c0c03d59841
+21	258	7580340510167704	CMakeFiles/uart_rsa.elf.dir/helloworld.c.obj	973b95fa28c1d65f
+258	423	7580340511313419	uart_rsa.elf	38b5b14347443ef1
+26	250	7580343012528511	CMakeFiles/uart_rsa.elf.dir/platform.c.obj	d6c28c0c03d59841
+21	427	7580343014280293	CMakeFiles/uart_rsa.elf.dir/helloworld.c.obj	973b95fa28c1d65f
+427	604	7580343015569334	uart_rsa.elf	38b5b14347443ef1
